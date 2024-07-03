@@ -1,0 +1,42 @@
+/*
+ * IIC.h
+ *
+ *  Created on: 2023年8月2日
+ *      Author: 23898
+ */
+
+#ifndef HARDWARE_OLED_IIC_H_
+#define HARDWARE_OLED_IIC_H_
+
+/*
+ * Bsp_i2c.h
+ *
+ *  Created on: 2023年7月12日
+ *      Author: Brando
+ */
+
+
+#include <driverlib.h>
+#include "Sys.h"
+
+
+#define HIGH     1
+#define LOW      0
+
+//库函数开发
+#define IIC_SDA_PORT                          GPIO_PORT_P4
+#define IIC_SCL_PORT                          GPIO_PORT_P4
+#define IIC_SDA_PIN                           GPIO_PIN1
+#define IIC_SCL_PIN                           GPIO_PIN2
+#define IIC_SDA_READDATA                      GPIO_getInputPinValue(IIC_SDA_PORT,IIC_SDA_PIN)
+
+
+void OLED_IIC_Init(void);
+void OLED_IIC_SendByte(uint8_t Byte);
+void OLED_IIC_Start(void);
+void OLED_IIC_Stop(void);
+void IIC_Write_SDA(uint8_t x);
+void IIC_Write_SCL(uint8_t x);
+
+
+#endif /* HARDWARE_OLED_IIC_H_ */

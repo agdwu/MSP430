@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\TI\project2.0"/>
+			<item value="D:\TI\2"/>
+			<item value="D:\TI\workspace_v12\Project"/>
+			<item value="D:\嵌入式\Project_dian_sai_Car\Project_dian_sai_Car"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

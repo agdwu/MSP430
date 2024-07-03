@@ -1,0 +1,471 @@
+
+**** Build of configuration Debug for project Project_dian_sai_Car ****
+
+"D:\\Program Files\\ti\\ccs1240\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 2: fatal error #1965: cannot open source file "BSP_SPI/BSP_SPI.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+Building file: "../BSP/BSP_ADC/BSP_ADC.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="BSP/BSP_ADC/BSP_ADC.d_raw" --obj_directory="BSP/BSP_ADC"  "../BSP/BSP_ADC/BSP_ADC.c"
+ 
+>> Compilation failure
+BSP/BSP_ADC/subdir_rules.mk:9: recipe for target 'BSP/BSP_ADC/BSP_ADC.obj' failed
+"..\BSP\BSP_ADC\BSP_ADC.h", line 4: fatal error #1965: cannot open source file "MSP430F5xx_6xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../BSP/BSP_ADC/BSP_ADC.c".
+Compilation terminated.
+gmake: *** [BSP/BSP_ADC/BSP_ADC.obj] Error 1
+Building file: "../BSP/BSP_GPIO_IRT/BSP_GPIO_IRT.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="BSP/BSP_GPIO_IRT/BSP_GPIO_IRT.d_raw" --obj_directory="BSP/BSP_GPIO_IRT"  "../BSP/BSP_GPIO_IRT/BSP_GPIO_IRT.c"
+ 
+>> Compilation failure
+BSP/BSP_GPIO_IRT/subdir_rules.mk:9: recipe for target 'BSP/BSP_GPIO_IRT/BSP_GPIO_IRT.obj' failed
+"../BSP/BSP_GPIO_IRT/BSP_GPIO_IRT.c", line 1: fatal error #1965: cannot open source file "BSP_GPIO_IRT/BSP_GPIO_IRT.h"
+1 catastrophic error detected in the compilation of "../BSP/BSP_GPIO_IRT/BSP_GPIO_IRT.c".
+Compilation terminated.
+gmake: *** [BSP/BSP_GPIO_IRT/BSP_GPIO_IRT.obj] Error 1
+Building file: "../BSP/BSP_I2C/BSP_I2C.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="BSP/BSP_I2C/BSP_I2C.d_raw" --obj_directory="BSP/BSP_I2C"  "../BSP/BSP_I2C/BSP_I2C.c"
+ 
+>> Compilation failure
+BSP/BSP_I2C/subdir_rules.mk:9: recipe for target 'BSP/BSP_I2C/BSP_I2C.obj' failed
+"../BSP/BSP_I2C/BSP_I2C.c", line 1: fatal error #1965: cannot open source file "MSP430F5xx_6xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../BSP/BSP_I2C/BSP_I2C.c".
+Compilation terminated.
+gmake: *** [BSP/BSP_I2C/BSP_I2C.obj] Error 1
+Building file: "../BSP/BSP_PWM/BSP_PWM.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="BSP/BSP_PWM/BSP_PWM.d_raw" --obj_directory="BSP/BSP_PWM"  "../BSP/BSP_PWM/BSP_PWM.c"
+ 
+>> Compilation failure
+BSP/BSP_PWM/subdir_rules.mk:9: recipe for target 'BSP/BSP_PWM/BSP_PWM.obj' failed
+"..\BSP\BSP_PWM\BSP_PWM.h", line 4: fatal error #1965: cannot open source file "MSP430F5xx_6xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../BSP/BSP_PWM/BSP_PWM.c".
+Compilation terminated.
+gmake: *** [BSP/BSP_PWM/BSP_PWM.obj] Error 1
+Building file: "../BSP/BSP_SPI/BSP_SPI.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="BSP/BSP_SPI/BSP_SPI.d_raw" --obj_directory="BSP/BSP_SPI"  "../BSP/BSP_SPI/BSP_SPI.c"
+ 
+>> Compilation failure
+BSP/BSP_SPI/subdir_rules.mk:9: recipe for target 'BSP/BSP_SPI/BSP_SPI.obj' failed
+"../BSP/BSP_SPI/BSP_SPI.c", line 1: fatal error #1965: cannot open source file "BSP_SPI/BSP_SPI.h"
+1 catastrophic error detected in the compilation of "../BSP/BSP_SPI/BSP_SPI.c".
+Compilation terminated.
+gmake: *** [BSP/BSP_SPI/BSP_SPI.obj] Error 1
+Building file: "../BSP/BSP_TimeA1/BSP_TimeA1.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="BSP/BSP_TimeA1/BSP_TimeA1.d_raw" --obj_directory="BSP/BSP_TimeA1"  "../BSP/BSP_TimeA1/BSP_TimeA1.c"
+ 
+>> Compilation failure
+BSP/BSP_TimeA1/subdir_rules.mk:9: recipe for target 'BSP/BSP_TimeA1/BSP_TimeA1.obj' failed
+"../BSP/BSP_TimeA1/BSP_TimeA1.c", line 1: fatal error #1965: cannot open source file "BSP_TimeA1/BSP_TimeA1.h"
+1 catastrophic error detected in the compilation of "../BSP/BSP_TimeA1/BSP_TimeA1.c".
+Compilation terminated.
+gmake: *** [BSP/BSP_TimeA1/BSP_TimeA1.obj] Error 1
+Building file: "../BSP/BSP_UART/BSP_UART.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="BSP/BSP_UART/BSP_UART.d_raw" --obj_directory="BSP/BSP_UART"  "../BSP/BSP_UART/BSP_UART.c"
+ 
+>> Compilation failure
+BSP/BSP_UART/subdir_rules.mk:9: recipe for target 'BSP/BSP_UART/BSP_UART.obj' failed
+"../BSP/BSP_UART/BSP_UART.c", line 3: fatal error #1965: cannot open source file "BSP_UART/BSP_UART.h"
+1 catastrophic error detected in the compilation of "../BSP/BSP_UART/BSP_UART.c".
+Compilation terminated.
+gmake: *** [BSP/BSP_UART/BSP_UART.obj] Error 1
+Building file: "../HARDWARE/Buzzer/Buzzer.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/Buzzer/Buzzer.d_raw" --obj_directory="HARDWARE/Buzzer"  "../HARDWARE/Buzzer/Buzzer.c"
+ 
+>> Compilation failure
+HARDWARE/Buzzer/subdir_rules.mk:9: recipe for target 'HARDWARE/Buzzer/Buzzer.obj' failed
+"../HARDWARE/Buzzer/Buzzer.c", line 1: fatal error #1965: cannot open source file "Buzzer/Buzzer.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/Buzzer/Buzzer.c".
+Compilation terminated.
+gmake: *** [HARDWARE/Buzzer/Buzzer.obj] Error 1
+Building file: "../HARDWARE/Grayscale/Grayscale.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/Grayscale/Grayscale.d_raw" --obj_directory="HARDWARE/Grayscale"  "../HARDWARE/Grayscale/Grayscale.c"
+ 
+>> Compilation failure
+HARDWARE/Grayscale/subdir_rules.mk:9: recipe for target 'HARDWARE/Grayscale/Grayscale.obj' failed
+"../HARDWARE/Grayscale/Grayscale.c", line 1: fatal error #1965: cannot open source file "Grayscale/Grayscale.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/Grayscale/Grayscale.c".
+Compilation terminated.
+gmake: *** [HARDWARE/Grayscale/Grayscale.obj] Error 1
+Building file: "../HARDWARE/JY901/wit_c_sdk.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/JY901/wit_c_sdk.d_raw" --obj_directory="HARDWARE/JY901"  "../HARDWARE/JY901/wit_c_sdk.c"
+ 
+>> Compilation failure
+HARDWARE/JY901/subdir_rules.mk:9: recipe for target 'HARDWARE/JY901/wit_c_sdk.obj' failed
+"../HARDWARE/JY901/wit_c_sdk.c", line 1: fatal error #1965: cannot open source file "JY901/wit_c_sdk.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/JY901/wit_c_sdk.c".
+Compilation terminated.
+gmake: *** [HARDWARE/JY901/wit_c_sdk.obj] Error 1
+Building file: "../HARDWARE/LASER_RANGING/LASER_RANGING.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/LASER_RANGING/LASER_RANGING.d_raw" --obj_directory="HARDWARE/LASER_RANGING"  "../HARDWARE/LASER_RANGING/LASER_RANGING.c"
+ 
+>> Compilation failure
+HARDWARE/LASER_RANGING/subdir_rules.mk:9: recipe for target 'HARDWARE/LASER_RANGING/LASER_RANGING.obj' failed
+"../HARDWARE/LASER_RANGING/LASER_RANGING.c", line 1: fatal error #1965: cannot open source file "LASER_RANGING/LASER_RANGING.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/LASER_RANGING/LASER_RANGING.c".
+Compilation terminated.
+gmake: *** [HARDWARE/LASER_RANGING/LASER_RANGING.obj] Error 1
+Building file: "../HARDWARE/MOTOR/MOTOR.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/MOTOR/MOTOR.d_raw" --obj_directory="HARDWARE/MOTOR"  "../HARDWARE/MOTOR/MOTOR.c"
+ 
+>> Compilation failure
+HARDWARE/MOTOR/subdir_rules.mk:9: recipe for target 'HARDWARE/MOTOR/MOTOR.obj' failed
+"../HARDWARE/MOTOR/MOTOR.c", line 1: fatal error #1965: cannot open source file "MOTOR/MOTOR.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/MOTOR/MOTOR.c".
+Compilation terminated.
+gmake: *** [HARDWARE/MOTOR/MOTOR.obj] Error 1
+Building file: "../HARDWARE/MPU6050/DMP/inv_mpu.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/MPU6050/DMP/inv_mpu.d_raw" --obj_directory="HARDWARE/MPU6050/DMP"  "../HARDWARE/MPU6050/DMP/inv_mpu.c"
+ 
+>> Compilation failure
+HARDWARE/MPU6050/DMP/subdir_rules.mk:9: recipe for target 'HARDWARE/MPU6050/DMP/inv_mpu.obj' failed
+"..\HARDWARE\MPU6050\DMP\inv_mpu.h", line 23: fatal error #1965: cannot open source file "MSP430F5xx_6xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/MPU6050/DMP/inv_mpu.c".
+Compilation terminated.
+gmake: *** [HARDWARE/MPU6050/DMP/inv_mpu.obj] Error 1
+Building file: "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.d_raw" --obj_directory="HARDWARE/MPU6050/DMP"  "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.c"
+ 
+>> Compilation failure
+HARDWARE/MPU6050/DMP/subdir_rules.mk:9: recipe for target 'HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.obj' failed
+"..\HARDWARE\MPU6050\DMP\inv_mpu.h", line 23: fatal error #1965: cannot open source file "MSP430F5xx_6xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.c".
+Compilation terminated.
+gmake: *** [HARDWARE/MPU6050/DMP/inv_mpu_dmp_motion_driver.obj] Error 1
+Building file: "../HARDWARE/MPU6050/MPU6050.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/MPU6050/MPU6050.d_raw" --obj_directory="HARDWARE/MPU6050"  "../HARDWARE/MPU6050/MPU6050.c"
+ 
+>> Compilation failure
+HARDWARE/MPU6050/subdir_rules.mk:9: recipe for target 'HARDWARE/MPU6050/MPU6050.obj' failed
+"../HARDWARE/MPU6050/MPU6050.c", line 2: fatal error #1965: cannot open source file "MPU6050/mpu6050.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/MPU6050/MPU6050.c".
+Compilation terminated.
+gmake: *** [HARDWARE/MPU6050/MPU6050.obj] Error 1
+Building file: "../HARDWARE/NRF24L01/24l01.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/NRF24L01/24l01.d_raw" --obj_directory="HARDWARE/NRF24L01"  "../HARDWARE/NRF24L01/24l01.c"
+ 
+>> Compilation failure
+HARDWARE/NRF24L01/subdir_rules.mk:9: recipe for target 'HARDWARE/NRF24L01/24l01.obj' failed
+"..\HARDWARE\NRF24L01\24l01.h", line 4: fatal error #1965: cannot open source file "MSP430F5xx_6xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/NRF24L01/24l01.c".
+Compilation terminated.
+gmake: *** [HARDWARE/NRF24L01/24l01.obj] Error 1
+Building file: "../HARDWARE/OLED/oled.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="HARDWARE/OLED/oled.d_raw" --obj_directory="HARDWARE/OLED"  "../HARDWARE/OLED/oled.c"
+ 
+>> Compilation failure
+HARDWARE/OLED/subdir_rules.mk:9: recipe for target 'HARDWARE/OLED/oled.obj' failed
+"../HARDWARE/OLED/oled.c", line 30: fatal error #1965: cannot open source file "OLED/oled.h"
+1 catastrophic error detected in the compilation of "../HARDWARE/OLED/oled.c".
+Compilation terminated.
+gmake: *** [HARDWARE/OLED/oled.obj] Error 1
+Building file: "../MSP430F5xx_6xx/adc10_a.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/adc10_a.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/adc10_a.c"
+Finished building: "../MSP430F5xx_6xx/adc10_a.c"
+ 
+Building file: "../MSP430F5xx_6xx/aes.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/aes.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/aes.c"
+Finished building: "../MSP430F5xx_6xx/aes.c"
+ 
+Building file: "../MSP430F5xx_6xx/adc12_a.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/adc12_a.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/adc12_a.c"
+"../MSP430F5xx_6xx/adc12_a.c", line 29: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430F5xx_6xx/adc12_a.c", line 173: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../MSP430F5xx_6xx/adc12_a.c"
+ 
+Building file: "../MSP430F5xx_6xx/battbak.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/battbak.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/battbak.c"
+Finished building: "../MSP430F5xx_6xx/battbak.c"
+ 
+Building file: "../MSP430F5xx_6xx/comp_b.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/comp_b.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/comp_b.c"
+"../MSP430F5xx_6xx/comp_b.c", line 23: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../MSP430F5xx_6xx/comp_b.c"
+ 
+Building file: "../MSP430F5xx_6xx/crc.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/crc.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/crc.c"
+Finished building: "../MSP430F5xx_6xx/crc.c"
+ 
+Building file: "../MSP430F5xx_6xx/ctsd16.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/ctsd16.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/ctsd16.c"
+Finished building: "../MSP430F5xx_6xx/ctsd16.c"
+ 
+Building file: "../MSP430F5xx_6xx/dac12_a.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/dac12_a.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/dac12_a.c"
+Finished building: "../MSP430F5xx_6xx/dac12_a.c"
+ 
+Building file: "../MSP430F5xx_6xx/eusci_a_spi.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/eusci_a_spi.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/eusci_a_spi.c"
+Finished building: "../MSP430F5xx_6xx/eusci_a_spi.c"
+ 
+Building file: "../MSP430F5xx_6xx/dma.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/dma.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/dma.c"
+Finished building: "../MSP430F5xx_6xx/dma.c"
+ 
+Building file: "../MSP430F5xx_6xx/eusci_a_uart.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/eusci_a_uart.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/eusci_a_uart.c"
+Finished building: "../MSP430F5xx_6xx/eusci_a_uart.c"
+ 
+Building file: "../MSP430F5xx_6xx/eusci_b_i2c.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/eusci_b_i2c.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/eusci_b_i2c.c"
+Finished building: "../MSP430F5xx_6xx/eusci_b_i2c.c"
+ 
+Building file: "../MSP430F5xx_6xx/eusci_b_spi.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/eusci_b_spi.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/eusci_b_spi.c"
+Finished building: "../MSP430F5xx_6xx/eusci_b_spi.c"
+ 
+Building file: "../MSP430F5xx_6xx/flashctl.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/flashctl.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/flashctl.c"
+"../MSP430F5xx_6xx/flashctl.c", line 105: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+Finished building: "../MSP430F5xx_6xx/flashctl.c"
+ 
+Building file: "../MSP430F5xx_6xx/gpio.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/gpio.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/gpio.c"
+Finished building: "../MSP430F5xx_6xx/gpio.c"
+ 
+Building file: "../MSP430F5xx_6xx/lcd_b.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/lcd_b.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/lcd_b.c"
+Finished building: "../MSP430F5xx_6xx/lcd_b.c"
+ 
+Building file: "../MSP430F5xx_6xx/lcd_c.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/lcd_c.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/lcd_c.c"
+Finished building: "../MSP430F5xx_6xx/lcd_c.c"
+ 
+Building file: "../MSP430F5xx_6xx/ldopwr.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/ldopwr.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/ldopwr.c"
+Finished building: "../MSP430F5xx_6xx/ldopwr.c"
+ 
+Building file: "../MSP430F5xx_6xx/mpy32.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/mpy32.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/mpy32.c"
+Finished building: "../MSP430F5xx_6xx/mpy32.c"
+ 
+Building file: "../MSP430F5xx_6xx/oa.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/oa.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/oa.c"
+Finished building: "../MSP430F5xx_6xx/oa.c"
+ 
+Building file: "../MSP430F5xx_6xx/pmap.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/pmap.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/pmap.c"
+"../MSP430F5xx_6xx/pmap.c", line 38: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430F5xx_6xx/pmap.c", line 38: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+Finished building: "../MSP430F5xx_6xx/pmap.c"
+ 
+Building file: "../MSP430F5xx_6xx/pmm.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/pmm.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/pmm.c"
+"../MSP430F5xx_6xx/pmm.c", line 275: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/pmm.c", line 288: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/pmm.c", line 310: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/pmm.c", line 323: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMLDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/pmm.c", line 358: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/pmm.c", line 409: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMLDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/pmm.c", line 446: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../MSP430F5xx_6xx/pmm.c"
+ 
+Building file: "../MSP430F5xx_6xx/ram.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/ram.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/ram.c"
+Finished building: "../MSP430F5xx_6xx/ram.c"
+ 
+Building file: "../MSP430F5xx_6xx/ref.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/ref.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/ref.c"
+Finished building: "../MSP430F5xx_6xx/ref.c"
+ 
+Building file: "../MSP430F5xx_6xx/rtc_b.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/rtc_b.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/rtc_b.c"
+Finished building: "../MSP430F5xx_6xx/rtc_b.c"
+ 
+Building file: "../MSP430F5xx_6xx/rtc_c.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/rtc_c.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/rtc_c.c"
+Finished building: "../MSP430F5xx_6xx/rtc_c.c"
+ 
+Building file: "../MSP430F5xx_6xx/rtc_a.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/rtc_a.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/rtc_a.c"
+"../MSP430F5xx_6xx/rtc_a.c", line 78: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../MSP430F5xx_6xx/rtc_a.c", line 81: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../MSP430F5xx_6xx/rtc_a.c", line 82: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../MSP430F5xx_6xx/rtc_a.c", line 83: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../MSP430F5xx_6xx/rtc_a.c", line 84: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../MSP430F5xx_6xx/rtc_a.c", line 85: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../MSP430F5xx_6xx/rtc_a.c", line 86: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+Finished building: "../MSP430F5xx_6xx/rtc_a.c"
+ 
+Building file: "../MSP430F5xx_6xx/sd24_b.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/sd24_b.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/sd24_b.c"
+Finished building: "../MSP430F5xx_6xx/sd24_b.c"
+ 
+Building file: "../MSP430F5xx_6xx/sfr.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/sfr.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/sfr.c"
+Finished building: "../MSP430F5xx_6xx/sfr.c"
+ 
+Building file: "../MSP430F5xx_6xx/sysctl.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/sysctl.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/sysctl.c"
+Finished building: "../MSP430F5xx_6xx/sysctl.c"
+ 
+Building file: "../MSP430F5xx_6xx/tec.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/tec.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/tec.c"
+Finished building: "../MSP430F5xx_6xx/tec.c"
+ 
+Building file: "../MSP430F5xx_6xx/timer_a.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/timer_a.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/timer_a.c"
+Finished building: "../MSP430F5xx_6xx/timer_a.c"
+ 
+Building file: "../MSP430F5xx_6xx/timer_d.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/timer_d.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/timer_d.c"
+Finished building: "../MSP430F5xx_6xx/timer_d.c"
+ 
+Building file: "../MSP430F5xx_6xx/timer_b.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/timer_b.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/timer_b.c"
+Finished building: "../MSP430F5xx_6xx/timer_b.c"
+ 
+Building file: "../MSP430F5xx_6xx/tlv.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/tlv.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/tlv.c"
+Finished building: "../MSP430F5xx_6xx/tlv.c"
+ 
+Building file: "../MSP430F5xx_6xx/usci_a_spi.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/usci_a_spi.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/usci_a_spi.c"
+"../MSP430F5xx_6xx/usci_a_spi.c", line 37: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../MSP430F5xx_6xx/usci_a_spi.c", line 67: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../MSP430F5xx_6xx/usci_a_spi.c"
+ 
+Building file: "../MSP430F5xx_6xx/usci_a_uart.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/usci_a_uart.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/usci_a_uart.c"
+"../MSP430F5xx_6xx/usci_a_uart.c", line 23: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430F5xx_6xx/usci_a_uart.c", line 88: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_a_uart.c", line 99: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_a_uart.c", line 204: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../MSP430F5xx_6xx/usci_a_uart.c"
+ 
+Building file: "../SYS/USD.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="SYS/USD.d_raw" --obj_directory="SYS"  "../SYS/USD.c"
+ 
+>> Compilation failure
+SYS/subdir_rules.mk:9: recipe for target 'SYS/USD.obj' failed
+"../SYS/USD.c", line 3: fatal error #1965: cannot open source file "MSP430F5xx_6xx/driverlib.h"
+1 catastrophic error detected in the compilation of "../SYS/USD.c".
+Compilation terminated.
+gmake: *** [SYS/USD.obj] Error 1
+Building file: "../MSP430F5xx_6xx/ucs.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/ucs.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/ucs.c"
+"../MSP430F5xx_6xx/ucs.c", line 140: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../MSP430F5xx_6xx/ucs.c", line 146: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430F5xx_6xx/ucs.c", line 163: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430F5xx_6xx/ucs.c", line 169: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../MSP430F5xx_6xx/ucs.c", line 198: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../MSP430F5xx_6xx/ucs.c", line 202: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../MSP430F5xx_6xx/ucs.c", line 206: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../MSP430F5xx_6xx/ucs.c", line 223: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../MSP430F5xx_6xx/ucs.c"
+ 
+Building file: "../sofeware/VOFA.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="sofeware/VOFA.d_raw" --obj_directory="sofeware"  "../sofeware/VOFA.c"
+ 
+>> Compilation failure
+sofeware/subdir_rules.mk:9: recipe for target 'sofeware/VOFA.obj' failed
+"..\sofeware\VOFA.h", line 4: fatal error #1965: cannot open source file "BSP_UART/BSP_UART.h"
+1 catastrophic error detected in the compilation of "../sofeware/VOFA.c".
+Compilation terminated.
+gmake: *** [sofeware/VOFA.obj] Error 1
+Building file: "../MSP430F5xx_6xx/wdt_a.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/wdt_a.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/wdt_a.c"
+Finished building: "../MSP430F5xx_6xx/wdt_a.c"
+ 
+Building file: "../MSP430F5xx_6xx/usci_b_spi.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/usci_b_spi.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/usci_b_spi.c"
+"../MSP430F5xx_6xx/usci_b_spi.c", line 37: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../MSP430F5xx_6xx/usci_b_spi.c", line 65: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../MSP430F5xx_6xx/usci_b_spi.c"
+ 
+Building file: "../MSP430F5xx_6xx/usci_b_i2c.c"
+Invoking: MSP430 Compiler
+"D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Program Files/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="D:/嵌入�?/Project_dian_sai_Car/Project_dian_sai_Car" --include_path="D:/Program Files/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --include_path="D:/MSP430/Project_dian_sai_Car/BSP" --include_path="D:/MSP430/Project_dian_sai_Car/HARDWARE" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430F5xx_6xx/usci_b_i2c.d_raw" --obj_directory="MSP430F5xx_6xx"  "../MSP430F5xx_6xx/usci_b_i2c.c"
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 45: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 186: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 192: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 222: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 233: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 266: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 290: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 313: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 328: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 349: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 356: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 372: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 384: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 402: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 415: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 457: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 454: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 485: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 477: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 519: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 548: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../MSP430F5xx_6xx/usci_b_i2c.c", line 568: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../MSP430F5xx_6xx/usci_b_i2c.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

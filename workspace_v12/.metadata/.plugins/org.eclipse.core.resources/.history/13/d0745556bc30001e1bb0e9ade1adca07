@@ -1,0 +1,40 @@
+/*
+ * IIC.h
+ *
+ *  Created on: 2023年8月2日
+ *      Author: 23898
+ */
+
+#ifndef HARDWARE_OLED_IIC_H_
+#define HARDWARE_OLED_IIC_H_
+
+#include  "driverlib.h"//基于库函数开发
+#include  "Sys.h"
+
+#define HIGH    1
+#define LOW 0
+#define EIGHT   8
+#define ACK 0
+#define NACK    1
+//�⺯������
+#define IIC_SDA_PORT                          GPIO_PORT_P4
+#define IIC_SCL_PORT                          GPIO_PORT_P4
+#define IIC_SDA_PIN                           GPIO_PIN1
+#define IIC_SCL_PIN                           GPIO_PIN2
+#define IIC_SDA_READDATA                      GPIO_getInputPinValue(IIC_SDA_PORT,IIC_SDA_PIN)
+
+
+
+void Main_NAck(void);
+void Main_Ack(void);
+void OLED_IIC_Init(void);
+uint8_t IIC_ReadByte(uint8_t ack);
+void OLED_IIC_SendByte(uint8_t Byte);
+void OLED_IIC_Start(void);
+void OLED_IIC_Stop(void);
+void IIC_Write_SDA(uint8_t x);
+void IIC_Write_SCL(uint8_t x);
+uint8_t Wait_Ack(void);
+
+
+#endif /* HARDWARE_OLED_IIC_H_ */

@@ -1,0 +1,173 @@
+/*
+ * IIC.c
+ *
+ *  Created on: 2023年8月2日
+ *      Author: 23898
+ */
+/*
+ * IIC.c
+ *
+ *  Created on: 2023��7��11��
+ *      Author: 1
+ */
+#include"IIC.h"
+//дģʽ
+void IIC_Write(void)
+{
+    GPIO_setAsOutputPin(IIC_SDA_PORT, IIC_SDA_PIN);
+}
+//��ģʽ
+void IIC_Read(void)
+{
+    GPIO_setAsInputPin(IIC_SDA_PORT, IIC_SDA_PIN);
+    GPIO_setAsInputPinWithPullUpResistor(IIC_SDA_PORT, IIC_SDA_PIN);
+
+}
+
+//IIC������д�ֽ�
+void IIC_Write_SDA(uint8_t x)
+{
+    if (x != LOW)
+    {
+        GPIO_setOutputHighOnPin(IIC_SDA_PORT, IIC_SDA_PIN);
+    }
+    else
+    {
+        GPIO_setOutputLowOnPin(IIC_SDA_PORT, IIC_SDA_PIN);
+    }
+
+}
+//IICʱ���ߵ�ƽ�ĸߵ͵�ƽ����
+void IIC_Write_SCL(uint8_t x)
+{
+    if (x != LOW)
+    {
+        GPIO_setOutputHighOnPin(IIC_SCL_PORT, IIC_SCL_PIN);
+    }
+    else
+    {
+        GPIO_setOutputLowOnPin(IIC_SCL_PORT, IIC_SCL_PIN);
+    }
+
+}
+
+//IIC��ʼ��
+void OLED_IIC_Init(void)
+{
+    GPIO_setAsOutputPin(IIC_SCL_PORT|IIC_SDA_PORT, IIC_SDA_PIN | IIC_SCL_PIN);
+    GPIO_setOutputHighOnPin(IIC_SCL_PORT|IIC_SDA_PORT, IIC_SDA_PIN | IIC_SCL_PIN);
+}
+//IIC��ʼ�ź�
+void OLED_IIC_Start(void)
+{
+    IIC_Write_SCL(HIGH);
+    IIC_Write_SDA(HIGH);
+    delay_us(20);
+    IIC_Write_SDA(LOW);
+    delay_us(20);
+    IIC_Write_SCL(LOW);
+}
+//IIC ֹͣ�ź�
+void 0LED_IIC_Stop(void)
+{
+    IIC_Write_SCL(HIGH);
+    IIC_Write_SDA(LOW);
+    delay_us(20);
+    IIC_Write_SDA(HIGH);
+}
+//����Ӧ��
+void Main_Ack(void)
+{
+    IIC_Write();
+    IIC_Write_SDA(LOW);
+    delay_us(20);
+    IIC_Write_SCL(HIGH);
+    IIC_Write_SCL(LOW);
+}
+//������Ӧ��
+void Main_NAck(void)
+{
+    IIC_Write();
+    IIC_Write_SDA(HIGH);
+    delay_us(20);
+    IIC_Write_SCL(HIGH);
+    IIC_Write_SCL(LOW);
+}
+
+//�ȴ��ӻ�Ӧ��
+uint8_t Wait_Ack(void)
+{
+    uint8_t ucErrTime=0;
+    IIC_Write_SDA(HIGH);
+    delay_us(20);
+    IIC_Read();
+    IIC_Write_SCL(HIGH);
+    while(IIC_SDA_READDATA)
+    {
+        ucErrTime++;
+        if(ucErrTime>250)
+        {
+            OLED_IIC_Stop();
+            return 1;
+        }
+    }
+    delay_us(20);
+    IIC_Write_SCL(LOW);
+    return 0;
+}
+//�����ֽ�
+void 0LED_IIC_SendByte(unsigned char Byte)
+{
+    unsigned char i;
+    IIC_Write();
+    IIC_Write_SCL(LOW);
+    for (i=0;i < 8;i++)
+    {
+        IIC_Write_SDA(Byte&(0x80>>i));
+        delay_us(20);
+        IIC_Write_SCL(HIGH);
+        IIC_Write_SCL(LOW);
+        delay_us(20);
+    }
+//    delay_us(10);
+//    IIC_Write_SCL(HIGH);
+//    IIC_Write_SCL(LOW);
+}
+
+uint8_t IIC_ReadByte(uint8_t ack)
+{
+    IIC_Read();
+    uint8_t i,Receive;
+    IIC_Write_SCL(LOW);
+    for (i = 0; i < 8; i++)
+    {
+        IIC_Write_SCL(LOW);
+
+        if (IIC_SDA_READDATA == HIGH)
+        {
+            Receive++;
+        }
+        else
+        {
+            Receive += 0;
+        }
+        IIC_Write_SCL(HIGH);
+        delay_us(5);
+        IIC_Write_SCL(LOW);
+        Receive <<= 1;
+    }
+    IIC_Write_SCL(LOW);
+    if (ack == 0)
+    {
+        Main_Ack();
+    }
+    else
+    {
+        Main_Ack();
+    }
+    IIC_Write_SCL(HIGH);
+    delay_us(5);
+    IIC_Write_SCL(LOW);
+    return Receive;
+}
+
